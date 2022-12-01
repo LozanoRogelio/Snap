@@ -42,3 +42,20 @@ nav #about {
   padding: 8px;
   width: 110px;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.main--h1{
+  grid-column: 1fr;
+}
+
+.main--p {
+ grid-column: 1 / span 1;
+}
+
+.main--button {
+  grid-column: 1 /span 1;
+}
